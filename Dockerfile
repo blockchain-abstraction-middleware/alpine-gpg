@@ -1,3 +1,3 @@
 FROM alpine:latest
 
-RUN apk add gnupg
+RUN apk add gnupg ca-certificates

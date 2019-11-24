@@ -15,7 +15,7 @@ docker build -t hello/alpine-gpg .
 docker run -it hello/alpine-gpg
 ```
 
-- Run
+- Push
 ```shell
-docker run -it hello/alpine-gpg
+docker push hello/alpine-gpg
 ```
